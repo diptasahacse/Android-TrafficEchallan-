@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/policehomepageactivityid"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:background="@drawable/d"
+    tools:context=".PoliceHomepage">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2F7C8A"
+        android:id="@+id/policehomepagetoolbarid"
+        >
+
+
+
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="3"
+        android:padding="20dp"
+        >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableBottom="@drawable/checklicence"
+            android:text="Check License "
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:onClick="gotoActivity"
+            android:id="@+id/checklicenceid"
+
+
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableBottom="@drawable/ticket"
+            android:text="Go to Ticket "
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:onClick="gotoActivity"
+            android:id="@+id/goticketid"
+
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableBottom="@drawable/protest"
+            android:text="Announcement "
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:onClick="gotoActivity"
+            android:id="@+id/announcementid"
+
+
+            />
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+
+        >
+
+        <ViewFlipper
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:id="@+id/viewflipperid"
+
+            >
+
+
+
+        </ViewFlipper>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

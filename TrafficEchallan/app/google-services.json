@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "489868303416",
+    "firebase_url": "https://trafficechallan-4562f.firebaseio.com",
+    "project_id": "trafficechallan-4562f",
+    "storage_bucket": "trafficechallan-4562f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489868303416:android:7c30e3099220bafaaddacd",
+        "android_client_info": {
+          "package_name": "com.example.trafficechallan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489868303416-0pq4ijpbi4ul8jpll71gbsepkdgqrshk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo2FCVfyCF_NEe9mDB9ViuNVSTx16bBGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489868303416-0pq4ijpbi4ul8jpll71gbsepkdgqrshk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

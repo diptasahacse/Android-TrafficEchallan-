@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">TrafficEchallan</string>
+
+    <string-array name="vehicletype">
+        <item>Two Wheeler</item>
+        <item>Four Wheeler</item>
+    </string-array>
+
+
+    <!-- Two Wheeler plantees-->
+
+    <string name="General">General (100 INR)</string>
+    <string name="Rulesofroadregulationviolation">Rules of road regulation violation (100 INR)</string>
+    <string name="Ticketlesstravel">Ticketless travel (200 INR)</string>
+    <string name="Disobedienceofauthoritiesorders">Disobedience of authorities’ orders (500 INR)</string>
+    <string name="Drivingwithoutlicense">Driving without license (500 INR)</string>
+    <string name="Drivingdespitedisqualification">Driving despite disqualification (500 INR)</string>
+    <string name="Oversizevehicles">Oversize vehicles (500 INR)</string>
+    <string name="Overspeeding">Over speeding (400 INR)</string>
+    <string name="Dangerousdrivingpenalty">Dangerous driving penalty (1000 INR)</string>
+    <string name="Drunkendriving">Drunken driving (2000 INR)</string>
+    <string name="SpeedingRacing">Speeding/ Racing (500 INR)</string>
+    <string name="Vehiclewithoutpermit">Vehicle without permit (500 INR)</string>
+    <string name="Aggregators">Aggregators (500 INR)</string>
+    <string name="Overloading">Overloading (2000 INR)</string>
+    <string name="Overloadingofpassengers">Overloading of passengers (500 INR)</string>
+    <string name="Seatbelt">Seat belt (500 INR)</string>
+    <string name="Overloadingoftwowheelers">Overloading of two wheelers (100 INR)</string>
+    <string name="Helmets">Helmets (100 INR)</string>
+
+    <!-- 4 Wheeler plantees-->
+
+    <string name="General4">General (100 INR)</string>
+    <string name="ViolationofRoadRules">Violation of Road Rules (300 INR)</string>
+    <string name="Ticketlesstravel4">Ticketless travel (200 INR)</string>
+    <string name="OversizedVehicles">Oversized Vehicles (500 INR)</string>
+    <string name="DrivingWhenMentallyPhysicallyUnfit">Driving When Mentally/Physically Unfit (300 INR)</string>
+    <string name="AccidentRelatedOffences">Accident Related Offences (200 INR)</string>
+    <string name="DrivingUninsuredVehicle">Driving Uninsured Vehicle (1000 INR)</string>
+    <string name="VehicleWithoutPermit">Vehicle Without Permit (5000 INR)</string>
+    <string name="NotWearingSeatbelt">Not Wearing Seatbelt (100 INR)</string>
+    <string name="Drunkendriving4">Drunken driving (2000 INR)</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
